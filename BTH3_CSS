@@ -1,0 +1,208 @@
+.header{
+  background-image: url(husc.png);
+  padding: 0.2%;
+  font-size: 0.8rem;
+}
+.header .header1{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+}
+.header .menu{
+  color: white;
+}
+.header .menu ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0px;
+  margin: 0px;
+}
+.header .menu ul li{
+  padding: 10px;
+}
+.header .menu ul li:hover{
+  cursor: pointer;
+  border-radius: 5%;
+  border-bottom:solid;
+  font-weight: bold;
+}
+.header .menu ul li a{
+  color: rgba(255, 255, 255, 0.822);
+  text-decoration: none;
+}
+.content{
+  background-image: url(husc.png);
+  padding: 1%;
+}
+.content .content1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+.content .menu ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.content .menu ul li{
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.content .menu ul li a{
+  color: rgba(255, 255, 255, 0.822);
+  text-decoration: none;
+}
+.content .menu ul li:hover{
+  cursor: pointer;
+  border-radius: 5%;
+  border-bottom:solid;
+  font-weight: bold;
+}
+.content2{
+  background-color:#131038;
+  color: white;
+  padding-top: 20px;
+  height: 290px;
+}
+.content2 .anh{
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.content2 .anh img{
+  height: 320px;
+  width: 555px;
+  float: left;
+}
+.content2 .anh .input{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+.content2 .input .dk{
+  width: 100%;
+  background: rgb(109, 131, 161);
+  border: 0;
+  flex-grow: 1;
+  padding: 8px;
+  padding-right: 43px;
+}
+.dk::-webkit-input-placeholder{
+  color: white;
+}
+.content2 .button{
+  background-color:#131038;
+  color: rgb(186, 21, 21);
+  border-color: rgb(186, 21, 21);
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+.center .tintuc{
+  display: flex;
+  flex: row;
+}
+.gachchan{
+  background-color: #c5c5c5;
+  height: 1px;
+  width: 30px;
+  margin: 10px 0;
+}
+.gachchan2{
+  background-color: #c5c5c5;
+  height: 3px;
+  width: 30px;
+  margin: 10px 0;
+}
+.center div a{
+  text-decoration: none;
+  color: rgb(38, 38, 98);
+}
+.center .cot{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.center .date{
+  width: 68px;
+  height: 70px;
+}
+.center .date .month{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-size: 0.8rem;
+}
+.center .date .day{
+  bottom: 5px;
+  font-size: 60px;
+  font-weight: bold;
+  position: relative;
+  right: -10px;
+  color: white;
+  text-align: right;
+}
+.body2{
+  padding-top: 30px;
+  width: 1800;
+}
+.body2 .daotao{
+  background-color: #131038;
+  width: 1150px;
+  height: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;;
+  color: rgb(210, 204, 204);
+  line-height: 2rem;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.gachchan1{
+  background-color: #63778f;
+  height: 2px;
+  width: 30px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.guongmat{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.guongmat .tieubieu{
+  display: flex;
+  flex-direction: row;
+}
+.guongmat div a{
+  text-decoration: none;
+  color: #0e047a;
+  font-weight: bolder;
+}
+.thongtin{
+  background-image: url(husc.png);
+  padding: 3%;
+}
+.thongtin .lienhe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgb(210, 204, 204);
+
+}
